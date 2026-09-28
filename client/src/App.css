@@ -1,0 +1,203 @@
+/* ================================ CATEGORIES PAGE ================================ */
+.categories-page {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 90px 40px;
+  box-sizing: border-box;
+}
+
+/* ================================ HEADER ================================ */
+.categories-header {
+  max-width: 760px;
+  margin: 0 auto 60px;
+  text-align: center;
+}
+
+.categories-subtitle {
+  margin: 0 0 14px;
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+}
+
+.categories-header h1 {
+  margin: 0 0 18px;
+  font-size: 48px;
+  line-height: 1.1;
+  font-weight: 600;
+  letter-spacing: -1px;
+}
+
+.categories-header>p:last-child {
+  max-width: 620px;
+  margin: 0 auto;
+  color: #666;
+  font-size: 16px;
+  line-height: 1.7;
+}
+
+/* ================================ CATEGORY GRID ================================ */
+.categories-grid {
+  width: 100%;
+  max-width: 1000px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 24px;
+}
+
+/* ================================ CATEGORY CARD ================================ */
+.category-page-card {
+  position: relative;
+  min-height: 260px;
+  padding: 34px;
+  border: 1px solid #e5e5e5;
+  background: #ffffff;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  box-sizing: border-box;
+  transition: transform 0.3s ease, box-shadow 0.3s ease, border-color 0.3s ease;
+}
+
+.category-page-card:hover {
+  transform: translateY(-5px);
+  border-color: #cfcfcf;
+  box-shadow: 0 18px 40px rgba(0, 0, 0, 0.08);
+}
+
+/* ================================ NUMBER ================================ */
+.category-page-number {
+  font-size: 13px;
+  font-weight: 600;
+  letter-spacing: 2px;
+  color: #999;
+}
+
+/* ================================ CONTENT ================================ */
+.category-page-content {
+  margin-top: 50px;
+}
+
+.category-page-content h2 {
+  margin: 0 0 12px;
+  font-size: 27px;
+  font-weight: 600;
+  line-height: 1.2;
+}
+
+.category-page-content p {
+  max-width: 430px;
+  margin: 0 0 25px;
+  color: #666;
+  font-size: 14px;
+  line-height: 1.7;
+}
+
+/* ================================ EXPLORE LINK ================================ */
+.category-explore-link {
+  display: inline-flex;
+  align-items: center;
+  color: #111;
+  text-decoration: none;
+  font-size: 13px;
+  font-weight: 600;
+  letter-spacing: 0.3px;
+  border-bottom: 1px solid #111;
+  padding-bottom: 5px;
+  transition: opacity 0.3s ease, padding-left 0.3s ease;
+}
+
+.category-explore-link:hover {
+  opacity: 0.65;
+  padding-left: 5px;
+}
+
+/* ================================ LOADING / ERROR / EMPTY ================================ */
+.categories-message {
+  width: 100%;
+  max-width: 700px;
+  margin: 0 auto;
+  padding: 40px;
+  text-align: center;
+  border: 1px solid #e5e5e5;
+  background: #ffffff;
+  box-sizing: border-box;
+}
+
+.categories-message p {
+  margin: 0;
+  color: #666;
+  font-size: 15px;
+}
+
+.categories-error p {
+  color: #b42318;
+}
+
+/* ================================ TABLET ================================ */
+@media (max-width: 800px) {
+  .categories-page {
+    padding: 70px 25px;
+  }
+
+  .categories-header {
+    margin-bottom: 45px;
+  }
+
+  .categories-header h1 {
+    font-size: 40px;
+  }
+
+  .categories-grid {
+    grid-template-columns: 1fr;
+    max-width: 650px;
+  }
+}
+
+/* ================================ MOBILE ================================ */
+@media (max-width: 600px) {
+  .categories-page {
+    padding: 55px 18px;
+  }
+
+  .categories-header {
+    margin-bottom: 35px;
+  }
+
+  .categories-subtitle {
+    font-size: 10px;
+    letter-spacing: 2px;
+  }
+
+  .categories-header h1 {
+    font-size: 32px;
+  }
+
+  .categories-header>p:last-child {
+    font-size: 14px;
+  }
+
+  .category-page-card {
+    min-height: 230px;
+    padding: 26px;
+  }
+
+  .category-page-content {
+    margin-top: 40px;
+  }
+
+  .category-page-content h2 {
+    font-size: 24px;
+  }
+
+  .category-page-content p {
+    font-size: 13px;
+  }
+
+  .categories-message {
+    padding: 30px 20px;
+  }
+}
