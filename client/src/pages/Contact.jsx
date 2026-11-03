@@ -72,7 +72,7 @@ function Contact() {
               <span>EMAIL</span>{" "}
               <a href="mailto:laibazahid887@gmail.com">
                 {" "}
-                laibazahid887@gmail.com{" "}
+                laibazahid@gmail.com{" "}
               </a>{" "}
             </div>{" "}
             <div className="contact-detail">
@@ -82,7 +82,7 @@ function Contact() {
             <div className="contact-detail">
               {" "}
               <span>LOCATION</span>{" "}
-              <p>Mian Park, Jhumra Road, Jaranwala, Faisalabad</p>{" "}
+              <p>Jhumra Road,Faisalabad</p>{" "}
             </div>{" "}
           </div>{" "}
         </div>{" "}
