@@ -164,9 +164,11 @@ function App() {
             path="/admin"
             element={
               <AdminRoute>
+                {" "}
                 <AdminLayout>
-                  <AdminDashboard />
-                </AdminLayout>
+                  {" "}
+                  <AdminDashboard />{" "}
+                </AdminLayout>{" "}
               </AdminRoute>
             }
           />

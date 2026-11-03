@@ -49,7 +49,7 @@ function Footer() {
             <span>Email</span>{" "}
             <a href="mailto:laibazahid887@gmail.com">
               {" "}
-              laibazahid887@gmail.com{" "}
+              laibazahid@gmail.com{" "}
             </a>{" "}
           </div>{" "}
           <div className="footer-contact-item">
@@ -59,7 +59,7 @@ function Footer() {
           <div className="footer-contact-item">
             {" "}
             <span>Location</span>{" "}
-            <p> Mian Park, Jhumra Road, Jaranwala, Faisalabad </p>{" "}
+            <p> Jhumra Road, Faisalabad </p>{" "}
           </div>{" "}
         </div>{" "}
       </div>{" "}
